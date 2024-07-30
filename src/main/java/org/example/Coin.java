@@ -1,5 +1,6 @@
 package org.example;
 
+import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -13,5 +14,14 @@ public class Coin {
 
     public Coin() {
 
+    }
+
+    @Override
+    public String toString() {
+        return "Coin{" +
+                "id='" + id + '\'' +
+                ", symbol='" + symbol + '\'' +
+                ", name='" + name + '\'' +
+                '}';
     }
 }
