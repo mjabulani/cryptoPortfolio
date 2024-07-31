@@ -9,7 +9,6 @@ public class Main {
     public static void main(String[] args) {
 
         CoinFetcher coinFetcher = new CoinFetcher(HttpClient.newBuilder().build());
-        coinFetcher.saveCoinListToFile();
 
 
 
